@@ -1,6 +1,80 @@
-.navbar2 {display: flex;
+.navbar2 {
+    display: flex;
     justify-content: space-between;
-    
+    padding-left: 30px;
+    height: 56px
 }
-.menu {display: flex;
-gap:10px; align-items: center;}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.list {
+    padding: 20px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+    margin: 50px
+}
+
+.user {
+    width: 327px;
+    height: 208px;
+}
+
+body {
+    position: absolute;
+    width: 1213px;
+    height: 830px;
+    left: 193px;
+    top: 173px;
+}
+
+.navbar {
+    margin: 40px
+}
+
+.menuitem1 {
+    background: #849FFF;
+    border-radius: 8px;
+    padding: 16px;
+    color: #FFFFFF
+}
+
+input {
+    border: none;
+    font-style: normal;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px
+}
+
+.searchbar {
+    border: 2px solid #151B32;
+    height: 50px
+}
+
+.skills {
+    background: #FFFFFF;
+    gap: 10px;
+    padding: 2px 8px;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+}
+
+.user {
+    background-color: #FBFCFF;
+    border-radius: 16px;
+}
+
+.user2 {
+    background: #FBFCFF;
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+    border-radius: 16px
+}
